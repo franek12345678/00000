@@ -9,6 +9,7 @@ input.onGesture(Gesture.Shake, function () {
     radio.sendValue("DICE", DICE)
 })
 let DICE = 0
+led.setBrightness(255)
 radio.setGroup(255)
 radio.setFrequencyBand(83)
 radio.setTransmitPower(7)
